@@ -1,4 +1,4 @@
-# 🧊 Rubik's Cube Solver with GUI Visualization
+# Rubik's Cube Solver with GUI Visualization
 
 This is a Python-based Rubik's Cube solver that includes:
 - Step-by-step solving logic
@@ -7,19 +7,19 @@ This is a Python-based Rubik's Cube solver that includes:
 
 ---
 
-## 📌 Features
+## Features
 
-- ✅ **Scramble the Cube** randomly  
-- 🔄 **Undo** the last move  
-- 🎯 **Step-by-step Solver** from White Cross to Final Orientation  
-- 📺 **GUI Visualizer** using `Tkinter`  
-- 📝 **Move History Tracking**  
-- 👁️ **Show Solution Steps** (non-destructive preview)  
-- ✨ **Cube fully visible, moves highlighted**
+- **Scramble the Cube** randomly  
+- **Undo** the last move  
+- **Step-by-step Solver** from White Cross to Final Orientation  
+- **GUI Visualizer** using `Tkinter`  
+- **Move History Tracking**  
+- 👁**Show Solution Steps** (non-destructive preview)  
+- **Cube fully visible, moves highlighted**
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -44,7 +44,7 @@ python main.py
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 rubiks-cube-solver/
@@ -57,14 +57,14 @@ rubiks-cube-solver/
 ├── white_corners.py            # Step 2 - Solve white corners
 ├── second_layer.py             # Step 3 - Solve second layer
 ├── yellow_cross.py             # Step 4 - Solve yellow cross
-├── match_cross_colors.py       # Step 5 - Match yellow cross edge colors
+├── match_yellow_cross_edges.py # Step 5 - Match yellow cross edge colors
 ├── yellow_corner_matching.py   # Step 6 - Match yellow corner positions
-├── final_solve.py              # Step 7 - Final yellow corner orientation
+├── orient_bottom_layer.py      # Step 7 - Final yellow corner orientation
 ```
 
 ---
 
-## 🧠 Solving Steps
+## Solving Steps
 
 1. **White Cross**  
 2. **White Corners**  
@@ -76,32 +76,25 @@ rubiks-cube-solver/
 
 ---
 
-## 🖼️ GUI Interface
+## GUI Interface
 
-- 🎨 **Tkinter Canvas** for cube drawing  
-- 🔘 Buttons for each move and solving stage  
-- 📋 **Move History Panel**  
-- 👁️‍🗨️ Show Solution Steps below the button (doesn't alter cube)  
-- ♻️ Full visibility and interactive design  
-
----
-
-## 📸 Example Output
-
-```
-Scramble Moves: ["U'", "R", "F", "L'", "B", "D"]
-Solution Moves: ['F', 'R', 'U', 'R’', ...]
-```
-
-✅ Cube solved with proper face orientation!
+- **Tkinter Canvas** for cube drawing  
+- Buttons for each move and solving stage  
+- **Move History Panel**  
+- Show Solution Steps below the button (doesn't alter cube)  
+- Full visibility and interactive design  
 
 ---
 
-## 👨‍💻 Author
+Cube solved with proper face orientation!
+
+---
+
+## Author
 
 **Anil Sevakula**  
-📧 [anilsevakula143@gmail.com](mailto:anilsevakula143@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/anil-sevakula/)  
-💻 [GitHub](https://github.com/AnilSevakula)
+[anilsevakula143@gmail.com](mailto:anilsevakula143@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/anil-sevakula/)  
+[GitHub](https://github.com/AnilSevakula)
 
 ---
