@@ -14,7 +14,7 @@ This is a Python-based Rubik's Cube solver that includes:
 - **Step-by-step Solver** from White Cross to Final Orientation  
 - **GUI Visualizer** using `Tkinter`  
 - **Move History Tracking**  
-- 👁**Show Solution Steps** (non-destructive preview)  
+- **Show Solution Steps** (non-destructive preview)  
 - **Cube fully visible, moves highlighted**
 
 ---
